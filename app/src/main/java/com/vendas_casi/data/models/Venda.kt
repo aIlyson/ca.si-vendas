@@ -20,7 +20,7 @@ data class Venda(
             return when (produto) {
                 "Café normal" -> 1.00
                 "Café com leite" -> 1.50
-                else -> 0.0
+                else -> throw IllegalArgumentException("Produto não encontrado: $produto")
             }
         }
     }
