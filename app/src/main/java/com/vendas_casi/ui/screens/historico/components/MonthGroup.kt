@@ -2,7 +2,7 @@ package com.vendas_casi.ui.screens.historico.components
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Divider
+import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -32,7 +32,7 @@ fun MonthGroup(
             Item(venda = sale)
         }
 
-        Divider(
+        HorizontalDivider(
             modifier = Modifier.padding(vertical = 8.dp, horizontal = 16.dp),
             thickness = 1.dp,
             color = MaterialTheme.colorScheme.outline.copy(alpha = 0.2f)
