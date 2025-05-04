@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Vendas CA-SI</string>
+    <string name="produto">Produto</string>
+    <string name="quantidade">Quantidade</string>
+    <string name="forma_pagamento">Forma de Pagamento</string>
+    <string name="vendedor">Vendedor</string>
+    <string name="registrar_venda">Registrar Venda</string>
+    <string name="ver_historico">Ver Histórico</string>
+    <string name="voltar">Voltar</string>
+    <string name="historico_vendas">Histórico de Vendas</string>
+    <string name="data">Data</string>
+    <string name="valor_unitario">Valor Unitário</string>
+    <string name="valor_total">Valor Total</string>
+    <string name="pagamento">Pagamento</string>
+    <string name="aviso">Aviso</string>
+    <string name="ok">OK</string>
+</resources>
